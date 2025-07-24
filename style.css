@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#hero{
+    background-color: black;
+    background-image: url(images/img-hero-background.svg);
+    height: 480px;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+#logo{
+    width: 125px;
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#hero-title{
+    width: 536px;
+    height: 102px;
+    margin-top: 64px;
+    margin-left: 172px;
+}
+
+#hero-paragraph{
+    width: 536px;
+    height: 90px;
+    margin-top: 16px;
+    margin-left: 172px;
+}
+
+#section-bennefits{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    opacity: 1;
+    color: #122235;
+}
+
+.icon{
+    margin: 36px 0px 36px 108px;
+    padding: 12px;
+}
+
+.bennefits-info-text{
+    display: flex;
+    align-items: center;
+}
+
+#section-dnc{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 48px 0px 48px 0px;
+}
+
+#dnc-video{
+    margin: 0px 0px 0px 172px;
+}
+
+#dnc-video-title{
+    color: #247BA0;
+    width: 496px;
+    height: 96px;
+    margin: 0px 0px 0px 0px;
+}
+
+#dnc-video-text{
+    color: #383838;
+    margin: 0px 0px 0px 0px;
+}
+
+#section-carroussel{
+    background-color: #247BA0;
+    padding: 48px 0px 48px 0px;
+}
+
+#carroussel-title{
+    color: #EAECE5;
+    font-size: 24px;
+    text-align: center;
+}
+
+#section-carroussel-subsection-cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 48px 48px 32px 172px;
+}
+
+.card{
+    margin: 0px 0px 0px 0px;
+    width: 502px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#card-bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-4px);
+    transition-duration: 200ms;
+}
+
+#section-form{
+    text-align: center;
+    margin: 42px
+}
+
+#form-title{
+    font-size: 25px;
+    color: #383838;
+}
+
+#form{
+    margin: 28px;
+}
+
+input{
+    width: 280px;
+    height: 36px;
+    opacity: 1;
+    margin: 8px;
+    font-size: 12px;
+    padding-left: 10px;
+    background-color: #EAECE5;
+    border: 0px;
+    border-radius: 4px;
+}
+
+button{
+    margin: 8px;
+    width: 216px;
+    height: 36px;
+    background-color: #247BA0;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0px 12px 16px  #0f172862;
+    transition-duration: 250ms;
+}

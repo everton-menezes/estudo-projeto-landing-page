@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Projeto LP DNC</title>
+    </head>
+    <body>
+        <!-- Hero -->
+        <div id="hero">
+            <a href="http://www.escoladnc.com.br">
+                <img src="./images/img-logo.svg" id="logo" alt="ERRO" srcset="">
+            </a>
+            <h1 id="hero-title">
+                Dê os primeiros passos da <br>
+                sua carreira em Tecnologia
+            </h1>
+            <p id="hero-paragraph"> 
+                Inscreva-se no curso gratuito de Introdução à <br>
+                Tecnologia da DNC School e aprenda os principais <br>
+                fundamentos para construir experiências efetivas.
+            </p>
+        </div>
+
+        <!-- Seção de Benefícios -->
+        <div id="section-bennefits">
+            <p class="bennefits-info-text"> 
+                <img src="icons/icn-certificate.svg" class="icon" alt="Erro certificado">
+                Certificado de conclusão 
+            </p>
+            <p class="bennefits-info-text"> 
+                <img src="icons/icn-clock.svg" class="icon" alt="Erro Relogio">
+                4 horas de conteúdo 
+            </p>
+            <p class="bennefits-info-text"> 
+                <img src="icons/icn-camera.svg" class="icon" alt="Erro Camera">
+                Aulas online gravadas 
+            </p>
+        </div>
+
+        <!-- Seção de Institucional DNC -->
+        <div id="section-dnc">
+            <iframe id="dnc-video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4?si=He6kNmfGbKGf9KXE&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div id="section-dnc-subsection-text">
+                <h1 id="dnc-video-title"> 
+                    Aprenda com especialistas e <br>
+                    comece seu primeiro projeto 
+                </h1>
+                <p id="dnc-video-text">
+                    Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                    os principais métodos e ferramentas da área para resolver <br>
+                    problemas complexos. <br> 
+                    <br>
+                    Conquiste seu certificado e desenvolva um projeto prático para <br>
+                    aplicar seus conhecimentos.
+                </p>
+            </div>
+        </div>
+
+        <!-- Seção Carrossel Depoimento -->
+        <div id="section-carroussel">
+            <h1 id="carroussel-title"> Mais de 500 alunos já iniciaram seus estudos </h1>
+            <div id="section-carroussel-subsection-cards">
+                <img id = "seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="./icons/icn-arrow-left.svg" alt="Erro Seta Dir">
+                <img id = "card-leonardo" class="card" src="./cards/card-leonardo.svg" alt="Erro Leonardo">
+                <img id = "card-bruna" class="card" src="./cards/card-bruna.svg" alt="Erro Bruna">
+                <img id = "card-samantha" class="card" src="./cards/card-samantha.svg" alt="Erro Samantha">
+                <img id = "seta-direita" onclick="RolarParaDireita()" class="seta" src="./icons/icn-arrow-right.svg" alt="Erro Seta Dir">
+            </div>
+        </div>
+
+        <!-- Seção do Formulário -->
+        <div id="section-form">
+            <h1 id="form-title"> Comece agora mesmo e dê o próximo passo da sua carreira </h1>
+            <form id="form" action="https://api.sheetmonkey.io/form/emxAgW6wkD5Fxny5B84QqA" method="post">
+                <input type="text" placeholder="Nome" name = "Nome" required > <br>
+                <input type="email" placeholder="Email" name = "Email" required > <br>
+                <input type="number" placeholder="Telefone" name = "Telefone" > <br>
+                <input type="hidden" name="Created at" value="x-sheetmonkey-current-date-time" />
+                <button type="submit" > Acesse sua Ementa Grátis </button>
+            </form>
+        </div>
+
+        <!-- Códigos Java Script -->
+        <script src="index.js"></script>
+
+    </body>
+    </html>
